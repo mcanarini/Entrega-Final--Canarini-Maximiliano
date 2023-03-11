@@ -1,0 +1,40 @@
+/*COMIENZO DELIVERY*/
+.mainDelivery {
+	background-image: url(../img/ciudad.jpg);
+	background-repeat: no-repeat;
+    height: 100%;
+	
+}
+.navDel {
+	list-style: none;
+	display: inline-block;
+	justify-content: end;
+	align-items: center;
+	margin-left: 1090px;
+	margin-top: 50px;
+	width: 150px;
+	height: 50px;
+}
+.boton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: $color_1;
+	font-family: $font-family_1;
+	text-align: right;
+	border: 5px solid white;
+	border-color: white;
+	width: 200px;
+	height: 80px;
+	margin-right: 60px;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+
+.botonRedSocial img{
+    width: 70px;
+    bottom: 10px;
+    right: 10px;
+}
+/*FIN DELIVERY*/

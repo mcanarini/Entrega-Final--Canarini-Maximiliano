@@ -1,0 +1,45 @@
+/*COMIENZO NOSOTROS*/
+.ContenedorNosotros {
+    min-height: 100vh;
+    background-image: url(../img/nosotros-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "nav nav nav" "titulo titulo titulo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "footer footer footer";
+}
+
+.Navegador {
+    grid-area: nav;
+}
+
+.titNosotros {
+    grid-area: titulo;
+    font-family: $font-family_3;
+    text-align: center;
+    color: $color_1;
+    opacity: 80%;
+    text-shadow: 80%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Nosotros {
+    font-size: 6rem;
+}
+
+.pNosotros {
+    grid-area: parrafo;
+    font-size: 1.5rem;
+    text-align: center;
+    color: $color_2;
+    background-color: $background-color_2;
+    opacity: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    padding: 20px 10px 10px 10px;
+    width: 80%;
+    box-shadow: 80%;
+}
+
+/*FIN NOSOTROS*/

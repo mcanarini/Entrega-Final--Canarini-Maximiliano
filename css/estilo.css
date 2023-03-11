@@ -1,0 +1,261 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*COMIENO HEADER*/
+.logo {
+  width: 60px;
+  margin-left: 20%;
+  margin-top: 6%;
+  grid-area: logo;
+}
+
+.header {
+  background-color: black;
+  height: 12rem;
+}
+
+.collapse {
+  margin-right: 10%;
+}
+
+.anclas {
+  font-size: 1.6rem;
+  color: #FFC00F;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-left: 5%;
+}
+
+.navbar-toggler {
+  background-color: #FFC00F;
+  margin-right: 6%;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.navMobile {
+  display: grid;
+  grid-area: navMobile;
+  grid-template-areas: "logo" "navMobile" "navMobile" "navMobile" "footer";
+}
+
+/*FIN HEADER*/
+/*COMIENZO INICIO*/
+.MainInicio {
+  background-image: url(../img/hamburguesa-inicio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-area: main1;
+}
+
+.slogan {
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 12rem;
+  color: white;
+  font-weight: bold italic;
+  font-variant-ligatures: common-ligatures;
+  top: 0;
+  bottom: 0;
+}
+
+/*FIN INICIO*/
+/*COMIENZO NOSOTROS*/
+.ContenedorNosotros {
+  min-height: 100vh;
+  background-image: url(../img/nosotros-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-areas: "nav nav nav" "titulo titulo titulo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "parrafo parrafo parrafo" "footer footer footer";
+}
+
+.Navegador {
+  grid-area: nav;
+}
+
+.titNosotros {
+  grid-area: titulo;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: #FFC00F;
+  opacity: 80%;
+  text-shadow: 80%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.Nosotros {
+  font-size: 6rem;
+}
+
+.pNosotros {
+  grid-area: parrafo;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #FFC00F;
+  opacity: 80%;
+  margin-left: 10%;
+  margin-bottom: 40px;
+  padding: 20px 10px 10px 10px;
+  width: 80%;
+  box-shadow: 80%;
+}
+
+/*FIN NOSOTROS*/
+/*COMIENZO MENÚ*/
+.contenedorMenu {
+  min-height: 100vh;
+  background-image: url(../img/nosotros-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-areas: "nav nav nav" "carousel carousel carousel" "carousel carousel carousel" "carousel carousel carousel" "carousel carousel carousel" "texto texto texto" "footer footer footer";
+}
+
+.navegador {
+  grid-area: nav;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+
+.Hashtag {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+  font-size: 5rem;
+  font-style: normal;
+  text-align: end;
+  color: #FFC00F;
+  grid-row: span2;
+  grid-area: texto;
+}
+
+/*FIN MENÚ*/
+/*COMIENZO FOOTER*/
+.footer {
+  grid-area: footer;
+  background-color: black;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  padding-top: 16px;
+  font-size: 1rem;
+  color: black;
+}
+
+.footer p {
+  color: #FFC00F;
+}
+
+/*FIN FOOTER*/
+/* COMIENZO UBICACION*/
+.mainUb {
+  background-image: url(../img/ciudad.jpg);
+}
+
+.maps {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.datos {
+  display: inline-block;
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+  font-size: 24px;
+  font-style: unset;
+  color: #FFC00F;
+}
+
+.form {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+
+/*COMIENZO DELIVERY*/
+.mainDelivery {
+  background-image: url(../img/ciudad.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.navDel {
+  list-style: none;
+  display: inline-block;
+  justify-content: end;
+  align-items: center;
+  margin-left: 1090px;
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #FFC00F;
+  font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+  text-align: right;
+  border: 5px solid white;
+  border-color: white;
+  width: 200px;
+  height: 80px;
+  margin-right: 60px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.botonRedSocial img {
+  width: 70px;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*FIN DELIVERY*/
+/*MEDIA QUERIES*/
+@media (min-width: 0px) and (max-width: 990px) {
+  .Navegador {
+    display: none;
+  }
+}
+@media (min-width: 990px) {
+  .navMobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,25 @@
+/*COMIENZO INICIO*/
+
+.MainInicio {
+    background-image: url(../img/hamburguesa-inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-area: main1;
+}
+
+.slogan {
+    list-style: none;
+    font-family: $font-family_3;
+    font-size: 12rem;
+    color: $color_2;
+    font-weight: bold italic;
+    font-variant-ligatures: common-ligatures;
+    top: 0;
+    bottom: 0;
+}
+
+/*FIN INICIO*/

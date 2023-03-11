@@ -1,0 +1,11 @@
+/*MEDIA QUERIES*/
+@media (min-width: 0px) and (max-width: 990px) {
+    .Navegador {
+        display: none;
+    }
+}
+@media (min-width: 990px) {
+    .navMobile{
+        display: none;
+    }
+}

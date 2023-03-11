@@ -1,0 +1,28 @@
+/* COMIENZO UBICACION*/
+.mainUb{
+	background-image: url(../img/ciudad.jpg);
+	
+}
+
+.maps {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 30px;
+}
+.datos {
+	display: inline-block;
+	position: absolute;
+	bottom: 60px;
+	left: 30px;
+	font-family: $font-family_1;
+	font-size: 24px;
+	font-style: unset;
+	color: $color_1;
+}
+.form {
+	display: inline-block;
+	position: absolute;
+	bottom: 30px;
+	right: 60px;
+}

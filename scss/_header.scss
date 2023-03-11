@@ -1,0 +1,43 @@
+/*COMIENO HEADER*/
+
+.logo {
+	width: 60px;
+	margin-left: 20%;
+	margin-top: 6%;
+	grid-area: logo;
+}
+.header {
+	background-color: $background-color_1;
+	height: 12rem;
+}
+.collapse {
+	margin-right: 10%;
+}
+.anclas {
+	font-size: 1.6rem;
+	color: $color_1;
+	font-family: $font-family_2;
+	font-weight: bold;
+	margin-top: 3rem;
+	margin-left: 5%;
+}
+.navbar-toggler {
+	background-color: $background-color_2;
+	margin-right: 6%;
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	vertical-align: middle;
+	background-image: var(--bs-navbar-toggler-icon-bg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+.navMobile {
+	display: grid;
+	grid-area: navMobile;
+	grid-template-areas: "logo" "navMobile" "navMobile" "navMobile" "footer";
+}
+
+
+/*FIN HEADER*/
