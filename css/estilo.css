@@ -173,56 +173,52 @@ html {
 
 /*FIN FOOTER*/
 /* COMIENZO UBICACION*/
-.mainUb {
+.contenedorUb {
   background-image: url(../img/ciudad.jpg);
-  display: grid;
-  grid-template-areas: "datos mapa mapa" "datos mapa mapa" "formulario mapa mapa" "formulario mapa mapa";
+}
+
+.mainUb {
+  display: inline;
 }
 
 .maps {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: end;
   padding: 30px 30px;
-  grid-area: mapa;
 }
 
 .datos {
   display: inline-block;
   position: absolute;
-  bottom: 60px;
-  left: 30px;
+  margin-top: 5rem;
+  margin-left: 3rem;
   font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
   font-size: 24px;
   font-style: unset;
   color: #FFC00F;
-  grid-area: datos;
-}
-
-.form {
-  display: inline-block;
-  position: absolute;
-  bottom: 30px;
-  right: 60px;
-  grid-area: formulario;
 }
 
 /*COMIENZO DELIVERY*/
 .mainDelivery {
   background-image: url(../img/ciudad.jpg);
-  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
   height: 100%;
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-areas: "nav form" "nav form";
 }
 
-.navDel {
+.navDelivery {
   list-style: none;
   display: inline-block;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
-  margin-left: 1090px;
-  margin-top: 50px;
-  width: 150px;
-  height: 50px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  grid-area: nav;
 }
 
 .boton {
@@ -233,19 +229,15 @@ html {
   color: #FFC00F;
   font-family: url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
   text-align: right;
-  border: 5px solid white;
-  border-color: white;
-  width: 200px;
-  height: 80px;
-  margin-right: 60px;
-  margin-top: 50px;
-  margin-right: 100px;
+  padding: 6%;
+  border: 2px;
 }
 
-.botonRedSocial img {
-  width: 70px;
-  bottom: 10px;
-  right: 10px;
+.form {
+  display: inline;
+  align-items: flex-end;
+  justify-content: flex-end;
+  grid-area: form;
 }
 
 /*FIN DELIVERY*/

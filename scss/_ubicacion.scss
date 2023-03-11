@@ -1,36 +1,28 @@
 /* COMIENZO UBICACION*/
-.mainUb{
+.contenedorUb{
 	background-image: url(../img/ciudad.jpg);
-	display: grid;
-    grid-template-areas: 
-	"datos mapa mapa"
-	"datos mapa mapa"
-	"formulario mapa mapa"
-	"formulario mapa mapa";
+}
+
+.mainUb {
+	display: inline
 }
 
 .maps {
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: end;
 	padding: 30px 30px;
-	grid-area: mapa;
+
 }
+
 .datos {
 	display: inline-block;
 	position: absolute;
-	bottom: 60px;
-	left: 30px;
+	margin-top: 5rem;
+	margin-left: 3rem;
 	font-family: $font-family_1;
 	font-size: 24px;
 	font-style: unset;
 	color: $color_1;
-	grid-area: datos;
-}
-.form {
-	display: inline-block;
-	position: absolute;
-	bottom: 30px;
-	right: 60px;
-	grid-area: formulario;
+
 }

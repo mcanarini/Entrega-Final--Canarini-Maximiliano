@@ -1,20 +1,27 @@
 /*COMIENZO DELIVERY*/
 .mainDelivery {
 	background-image: url(../img/ciudad.jpg);
-	background-repeat: no-repeat;
-    height: 100%;
-	
+	background-size: cover;
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	display: grid;
+	grid-template-areas: 
+	"nav form"
+	"nav form";
 }
-.navDel {
+
+.navDelivery {
 	list-style: none;
 	display: inline-block;
-	justify-content: end;
+	justify-content: center;
 	align-items: center;
-	margin-left: 1090px;
-	margin-top: 50px;
-	width: 150px;
-	height: 50px;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	grid-area: nav;
 }
+
 .boton {
 	display: flex;
 	justify-content: center;
@@ -23,18 +30,16 @@
 	color: $color_1;
 	font-family: $font-family_1;
 	text-align: right;
-	border: 5px solid white;
-	border-color: white;
-	width: 200px;
-	height: 80px;
-	margin-right: 60px;
-	margin-top: 50px;
-	margin-right: 100px;
+	padding: 6%;
+
 }
 
-.botonRedSocial img{
-    width: 70px;
-    bottom: 10px;
-    right: 10px;
+
+.form {
+	display: inline;
+	align-items: flex-end;
+	justify-content: flex-end;
+	grid-area: form;
 }
+
 /*FIN DELIVERY*/
